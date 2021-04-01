@@ -17,6 +17,7 @@ tasks:
       rustup target add wasm32-unknown-unknown --toolchain nightly
       make init
       cargo install --force --git https://github.com/paritytech/substrate subkey
+      yarn add @polkadot/api
     command: |
       make init
       make build
